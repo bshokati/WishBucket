@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/Create_New_List_ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:label="@string/title_activity_create_new_list"
+    android:orientation="vertical"
+    android:background="@drawable/catagorypage" >
+
+	<EditText
+        android:id="@+id/Create_New_List_Title_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:maxLength="12"
+        android:hint="@string/create_new_list_title_hint"
+     />
+	
+
+	 
+	 <ImageButton
+        android:id="@+id/buttonLoadPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gallery"
+        android:src="@drawable/gallery"
+        android:onClick="loadPicture"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="35dp"  >
+     </ImageButton>
+	 
+	 <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+      >
+	 </ImageView>
+
+     <ImageButton
+         android:id="@+id/saveListButton"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/savebutton"
+         android:onClick="saveNewList"
+         android:src="@drawable/savebutton"
+         android:text="@string/save_new_list" />
+
+</LinearLayout>
+</ScrollView>

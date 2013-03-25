@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="fill"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+
+    <ImageButton
+        android:id="@+id/home_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/homebutton"
+        android:background="@drawable/homebutton"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="2dp"
+        
+        />
+    
+   
+    <ImageButton
+        android:id="@+id/discover_tab"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	
+    	android:src="@drawable/discoverbutton"
+    	android:background="@drawable/discoverbutton"
+    	android:layout_marginTop="53dp"
+        android:layout_marginBottom="15dp"
+         />
+    
+     <ImageButton
+        android:id="@+id/deals_tab"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	
+    	android:src="@drawable/dealsbutton"
+    	android:background="@drawable/dealsbutton"
+    	android:layout_marginTop="53dp"
+        android:layout_marginBottom="15dp"
+         />
+
+</LinearLayout>

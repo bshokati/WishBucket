@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/Create_New_Wish_ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<LinearLayout
+	android:background="@drawable/addpageback"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+
+    
+    <EditText
+        android:id="@+id/Create_New_Wish_Title_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:ems="20"
+        android:maxLength="25"
+        android:hint="@string/create_new_wish_title_hint"
+       
+         />
+
+    <RadioGroup
+        android:id="@+id/Create_New_Wish_Status_Radio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:orientation="horizontal"
+         >
+
+        <RadioButton
+            android:id="@+id/radio_incomplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="true"
+            android:text="@string/incomplete"
+            android:textColor="#513d3d"
+            style="@style/RadioButton" />
+
+        <RadioButton
+            android:id="@+id/radio_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/complete"
+            android:textColor="#513d3d" 
+            style="@style/RadioButton" 
+            />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/Create_New_Wish_Category_Spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+     />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="7dp"
+        android:background="@drawable/createnewcat"
+        android:onClick="addNewList"
+        android:src="@drawable/createnewcat"
+        android:text="@string/new_list_button" />
+
+    <ImageButton
+        android:id="@+id/saveWishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/savebutton"
+        android:onClick="saveNewWish"
+        android:src="@drawable/savebutton" />
+    </LinearLayout>
+</ScrollView>
