@@ -38,6 +38,6 @@ an open source project in order to contribute to the android app development com
 
 
 ## Team Members
-[Ben Shokati - Software Developer](www.linkedin.com/in/bshokati0software1engineer)
-[Nima Hashemi - Program Manager](www.linkedin.com/pub/nima-hashemi/42/b98/75b)
-[Shazzy Gustafson - User Interface Designer](www.linkedin.com/pub/shazzy-gustafson/66/547/994)
+Software Developer-[Ben Shokati](www.linkedin.com/in/bshokati0software1engineer)<br>
+Program Manager-[Nima Hashemi](www.linkedin.com/pub/nima-hashemi/42/b98/75b)<br>
+User Interface Designer-[Shazzy Gustafson](www.linkedin.com/pub/shazzy-gustafson/66/547/994)
