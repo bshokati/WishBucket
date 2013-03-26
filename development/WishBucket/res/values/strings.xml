@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main page -->
+    <string name="app_name">Wish Bucket</string>
+    <string name="no_lists">You don\'t have any WishBucket lists!\nYour WishBucket list categories are saved here.</string>
+    <string name="add_wish_button">Add Wish</string>
+    <string name="context_menu_title">What would you like to do?</string>
+    <string name="dialog_delete_warning">This WishBucket list will be permanently deleted!\nDo you confirm?</string>
+    <string name="dialog_delete_ok">OK</string>
+    <string name="dialog_delete_cancel">Cancel</string>
+    <string name="menu_edit_list">Edit List</string>
+    <string name="menu_delete_list">Delete List</string>
+    <string name="list_instructions">Click and hold any WishBucket list for options.</string>
+    <string name="wish_instructions">Click and hold any wish for options.</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_discover">Discover</string>
+    <string name="tab_deals">Deals</string>
+
+    <!-- strings for create new list activity -->
+    <string name="title_activity_create_new_list">Create New WishBucket List</string>
+    <string name="save_new_list">Save</string>
+    <string name="create_new_list_title">List Title</string>
+    <string name="create_new_list_title_hint">Travel, Inventions, etc.</string>
+    <string name="create_new_list_details">Details</string>
+    <string name="create_new_list_details_hint">Optional</string>
+    <string name="select_image">Select a thumbnail image (Optional)</string>
+
+    <!-- strings for wb list activity -->
+    <string name="no_wishes">You don\'t have any wishes in this list!\nAdd a new wish using the Add Wish button.</string>
+    <string name="menu_delete_wish">Delete Wish</string>
+    <string name="menu_edit_wish">Edit Wish</string>
+    <string name="menu_share_wish">Share Wish</string>
+
+    <!-- strings for suggestions page -->
+    <string name="no_suggestions">Unfortunately, there are no suggestions for you at this time.</string>
+
+    <!-- strings for deals page -->
+    <string name="no_deals">Unfortunately, there are no deals for you at this time.\n Please add more wishes for more relevant deal suggestions.</string>
+    <string name="loading_deals">Loading your Groupon deals...please wait...</string>
+
+    <!-- strings for create new wish activity -->
+    <string name="title_activity_create_new_wish">Create New Wish</string>
+    <string name="save_new_wish">Save</string>
+    <string name="create_new_wish_title">Wish Title</string>
+    <string name="create_new_wish_title_hint">Go to Spain, Go Skydiving, etc.</string>
+    <string name="create_new_wish_details">Notes</string>
+    <string name="create_new_wish_details_hint">Optional</string>
+    <string name="incomplete">Incomplete</string>
+    <string name="complete">Complete</string>
+    <string name="create_new_wish_status">Wish Status?</string>
+    <string name="create_new_wish_category">Add this wish to...</string>
+    <string name="new_list_button">Or click to create a new WishBucket list</string>
+    <string name="title_activity_wish_status">Wish Status</string>
+    <string name="edit_wish_info">Edit Wish Info</string>
+
+    <!-- for facebook -->
+    <!-- INSERT FACEBOOK APP ID FOR STRINGS -->
+    <string name="app_id"></string>
+    <string name="share">Share</string>
+    <string name="fb_login">Please log in to share.</string>
+    <string name="dialog_fb_ok">OK</string>
+    <string name="dialog_fb_cancel">Cancel</string>
+    <string name="fb_logout">Log out of Facebook</string>
+
+    <!-- strings for publish activity -->
+    <string name="publish_message">Edit and publish your facebook post!</string>
+
+</resources>
