@@ -25,6 +25,16 @@ You may want to use some of the features of Wish Bucket for your own projects.
 ##Source Code
 The package was developed using Eclipse Juno and resides within the "development"
 directory. You may import the package from within Eclipse as a project if you'd like.
+<br> 
+To use the Facebook features, you must add your own unique app id as the value for the 
+"app_id" string in WishBucket/development/WishBucket/res/values/strings.xml. 
+If you don't have an app id, you can request one by creating a Facebook app from the
+[Facebook Android Developers page](https://developers.facebook.com/docs/getting-started/facebook-sdk-for-android/3.0/).
+<br>
+To use the Groupon feature, you must request a key from the
+[Groupon API](http://www.groupon.com/pages/api) and place it into the "client_id" field in
+the doBackground() method of the GetDealsTask inner class in
+ development/WishBucket/src/com/example/wishbucket/DealsFragment.java.
 
 ##Quick Install
 Currently Wish Bucket only targets Android 4.0.3 and above.
