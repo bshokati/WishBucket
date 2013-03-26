@@ -9,7 +9,7 @@ provides Groupon deals to help you achieve them.
 
 ##Technical Features
 You may want to use some of the features of Wish Bucket for your own projects. 
-You can find examples of the following within this app:
+<br>You can find examples of the following within this app:
 + SQLite Tables
 + Content Loaders
 + List View with images/text
@@ -20,7 +20,7 @@ You can find examples of the following within this app:
 + GET calls to Groupon
 + GPS location for deals
 + AsyncTask calls for network access
-... and many more!
+<br>... and many more!
 
 ##Source Code
 The package was developed using Eclipse Juno and resides within the "development"
@@ -38,6 +38,6 @@ an open source project in order to contribute to the android app development com
 
 
 ## Team Members
-[Ben Shokati - Software Developer] www.linkedin.com/in/bshokati0software1engineer
-[Nima Hashemi - Program Manager] www.linkedin.com/pub/nima-hashemi/42/b98/75b
-[Shazzy Gustafson - User Interface Designer] www.linkedin.com/pub/shazzy-gustafson/66/547/994
+[Ben Shokati - Software Developer](www.linkedin.com/in/bshokati0software1engineer)
+[Nima Hashemi - Program Manager](www.linkedin.com/pub/nima-hashemi/42/b98/75b)
+[Shazzy Gustafson - User Interface Designer](www.linkedin.com/pub/shazzy-gustafson/66/547/994)
